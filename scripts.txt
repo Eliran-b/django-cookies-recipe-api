@@ -31,8 +31,6 @@ run tests and flake8 and remove any saved modules running (add --rm):
 sudo docker-compose run --rm app sh -c "python manage.py test && flake8 --ignore=E126,E303,W291,W292,W293"
 
 
-
-
 upload the docker development server with the db
 sudo docker-compose up
 
